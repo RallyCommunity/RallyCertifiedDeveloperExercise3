@@ -21,7 +21,7 @@ Ext.define('CustomApp', {
                     ],
                     listeners:{
                      itemclick:function(){
-                         alert("","Test");
+                         alert("Test");
                      }
                     },
                     storeConfig: {
@@ -30,6 +30,11 @@ Ext.define('CustomApp', {
                                 property: 'Name',
                                 operator: 'contains',
                                 value: 'a'
+                            },
+                            {
+                                property: 'Name',
+                                operator: '!contains',
+                                value: 'z'
                             }
                         ]
                     }
