@@ -1,4 +1,4 @@
-Exercise 2 - Editable Grids
+Exercise 3 - Editable Grids
 =========================
 
 ## Overview
